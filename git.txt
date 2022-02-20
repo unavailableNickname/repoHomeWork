@@ -32,3 +32,18 @@ git pull - download updates from current branch
 git push upload local updates
 git fetch - download updates
 git push -u origin name
+
+git merge branch_name- merging branches
+git branch -d branch - delete a local branches
+git push --delete origin branch_name - delete a branch on github
+
+git add . - adding all files in directory
+git push -u origin branch_name - usefull contraction for easy pull&push
+git rebase master
+git push, git --force(seems like git merge adding auto)
+
+git tag "number" - tagging 
+git tag --list - ls
+git push --tags (uploading to release)
+git tag -d "ver" - deleting tag
+git push --delete origin "ver" - remote deleting tag
